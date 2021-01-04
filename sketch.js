@@ -20,7 +20,6 @@ function preload(){
   car4_img = loadImage("images/car4.png");
   ground = loadImage("images/ground.png");
 }
-
 function setup(){
   canvas = createCanvas(displayWidth - 20, displayHeight-30);
   database = firebase.database();
